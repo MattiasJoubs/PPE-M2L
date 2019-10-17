@@ -1,0 +1,112 @@
+#tagFood {
+	display: inline-block;
+	padding-left: 0px;
+	font-style: italic;
+	margin: 0px;
+}
+
+li.tag {
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	background-color: rgba(0, 0, 0, 0.05);
+	padding: 2px;
+	margin: 2px;
+	border-radius: 2px;
+}
+
+li.tag:hover {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #bbb;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+span.tag {
+	color: rgb(255, 50, 50);
+
+}
+
+
+
+div.card {
+	position: relative;
+	width: 92%;
+	height: 250px;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	background-color: #FEC816;
+	border: 1rem solid #555555;
+	box-shadow: 1px 1px 4px #bbb;
+}
+
+div.titreSalle {
+	font-size: 200%;
+}
+
+div.photoCard>img {
+
+	position: relative;
+	top: -10px;
+	left: -10px;
+	max-width: 200px;
+	max-height: 140px;
+
+}
+
+
+div.descrCard {
+	position: relative;
+	top: 0px;
+	font-size: 160%;
+}
+
+div.tagCard {
+	position: absolute;
+	bottom: 10px;
+	width: 180px;
+	text-align: right;
+}
+
+#galerie {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-left: 0px;
+	background-color: rgb(250, 250, 250);
+}
+
+#galerie li {
+	display: inline-block;
+}
+
+img.note {
+	padding-left: 1px;
+	vertical-align: sub;
+}
+
+img.galerie {
+	border: 1px solid rgb(239, 239, 239);
+}
+
+#note {
+	float: right;
+
+}
+
+img.aimer {
+	vertical-align: middle;
+}
+
+#critiques {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#critiques>li {
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	background-color: rgba(0, 0, 0, 0.05);
+	padding: 8px;
+	margin: 5px;
+	border-radius: 2px;
+}
